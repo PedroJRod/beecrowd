@@ -5,11 +5,11 @@ d = float(input())
 e = float(input())
 f = float(input())
 
-list = [a, b, c, d, e, f]
+valores = [a, b, c, d, e, f]
 positivos = []
 
-for i in list:
-  if i>=0:
-    positivos.append(i)
+for i in valores:
+    if i >= 0:
+        positivos.append(i)
 
 print(len(positivos), "valores positivos")
